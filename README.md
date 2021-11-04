@@ -1,2 +1,2 @@
 # Filmoteket-favoritter
-Endrer den visuelle fremstillingen av Favoritter på bibliotekets filmstrømmetjeneste Filmoteket.
+Jeg synes favorittlisten på Filmoteket er litt uoversiktlig. Denne nettleserutvidelen gjør noe enkle endringer for å gjøre siden mer visuelt appelerende.
