@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name": "Filmoteket favoritter",
+    "version": "1",
+    "description": "Gjør favorittlisten på Filmoteket mer visuelt appelerende",
+
+    "icons": {
+        "32": "icon.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://filmoteket.no/User/FilmLists"],
+        "js": ["script.js"]
+    }]
+}
