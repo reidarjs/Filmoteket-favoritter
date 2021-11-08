@@ -5,11 +5,17 @@
     "description": "Gjør favorittlisten på Filmoteket mer visuelt appelerende",
 
     "icons": {
-        "32": "icon.png"
+        "36": "icon.png"
     },
 
     "content_scripts": [{
         "matches": ["https://filmoteket.no/User/FilmLists"],
         "js": ["script.js"]
-    }]
+    }],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "filmoteket@favoritter"
+        }
+      }
 }
